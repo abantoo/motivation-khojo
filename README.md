@@ -1,10 +1,10 @@
-#Motivation Khojo
+# Motivation Khojo
 
 ##Install dependenies:
 ```
 npm install
 ```
-##Run app
+## Run app
 ```
 npm install
 ```
