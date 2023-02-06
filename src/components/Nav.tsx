@@ -3,20 +3,17 @@ import KhojoBird from "../assets/KhojoBird.svg";
 
 function Nav() {
   return (
-    <div className="flex items-center justify-between py-4 px-2 text-white">
+    <div className="flex items-center justify-between py-4 px-2 text-white z-10">
       <NavLink to="/">
         <img src={KhojoBird} alt="Khojo" className="h-16 w-16 ml-4" />
       </NavLink>
 
       <div className="flex items-center gap-4">
-        <NavLink to="about" className="border border-slate-100 p-2 rounded-lg">
-          About
-        </NavLink>
         <NavLink
-          to="/"
-          className="border border-slate-100 p-2 rounded-lg hidden md:block"
+          to="about"
+          className="border border-slate-100 p-2 rounded-lg hover:text-yellow-400 hover:border-yellow-400 transition"
         >
-          Home
+          About
         </NavLink>
         <button>
           <svg
