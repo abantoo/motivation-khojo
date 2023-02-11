@@ -3,7 +3,7 @@ function Feed() {
   return (
     <div className="flex justify-center">
       <div className="w-1/2 bg-slate-600 h-max p-4 rounded shadow shadow-slate-300">
-        <div className="rounded-full border-2 border-blue-400 h-10 w-10 flex items-center justify-center bg-red-300">
+        <div className="rounded-full border-2 border-blue-400 h-10 w-10 flex items-center justify-end bg-red-300">
           <img
             src={KhojoBird}
             alt="Khojo, kisu paile boilo"
