@@ -1,8 +1,8 @@
 import KhojoBird from "../assets/KhojoBird.svg";
 function Feed() {
   return (
-    <div className="flex justify-center">
-      <div className="w-1/2 bg-slate-600 h-max p-4 rounded shadow shadow-slate-300">
+    <div className="flex justify-center md:w-1/2 bg-slate-200 mx-auto">
+      <div className="md:w-1/2 w-full m-2 bg-slate-600 h-max p-4 rounded shadow shadow-slate-300">
         <div className="rounded-full border-2 border-blue-400 h-10 w-10 flex items-center justify-end bg-red-300">
           <img
             src={KhojoBird}
