@@ -11,7 +11,14 @@ function Home() {
                 BEST&nbsp;
               </div>
               <div className="whitespace-normal">OF US CAN'T ESCAPE&nbsp;</div>
-              <div className="text-red-500">DEPRESSION</div>
+              {/* <div className="text-red-500 glitch">
+                <span aria-hidden="true">Depression</span>
+                Depression
+                <span aria-hidden="true">Depression</span>
+              </div> */}
+              <div className="text-red-500">
+                Depression
+              </div>
             </h1>
           </span>
           <div className="w-4/5 md:text-2xl lg:pr-16 text-xl leading-relaxed text-slate-200">
