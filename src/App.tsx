@@ -8,6 +8,7 @@ import RootLayout from "./pages/RootLaytout";
 import HomePage from "./pages/Home";
 import AboutPage from "./pages/About";
 import FeedPage from "./pages/Feed";
+import Users from "./pages/Users";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -15,6 +16,7 @@ const router = createBrowserRouter(
       <Route index element={<HomePage />} />
       <Route path="about" element={<AboutPage />} />
       <Route path="feed" element={<FeedPage />} />
+      <Route path="motivators" element={<Users />} />
     </Route>
   )
 );
